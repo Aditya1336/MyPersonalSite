@@ -1,0 +1,378 @@
+.intro{
+    height:600px;
+    width:100%;
+    background-color:#FBF8EF;
+}
+
+.titles{
+    padding-top:0px;
+    display:block;
+    text-align:center;
+    color: #000B58;
+
+}
+
+.titles h1{
+    font-size:80px;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:0;
+    margin-bottom:10px
+   
+}
+
+.titles h2{
+    font-size:40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom:60px;
+    margin-top:15px;
+    margin-bottom:20px;
+}
+
+.star1{
+    position:relative;
+    top:75px;
+    left:75%;
+}
+
+.star2{
+    position:relative;
+    top:140px;
+    left:8%;
+}
+
+.star3{
+    position:relative;
+    top:210px;
+    left:80%;
+
+}
+
+.info{
+    height:600px;
+    width:100%;
+    color:#C9E6F0;
+    text-align:center;
+}
+
+.p1,.p2{
+    display:flex;
+    justify-content: center;
+}
+
+.profile{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border:1px solid white;
+    margin-top:130px
+}
+
+.profile .dp{
+    border-radius:50%;
+}
+
+.info h2{
+    color:#000B58;
+    font-size:40px;
+    position:relative;
+    top: 0px;
+    margin:20px 0px 10px 0px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info p{
+    font-size:20px;
+    display:inline-block;
+    width:500px;
+    position:relative;
+    margin-top:5px;
+    color:black;
+
+}
+
+.skill{
+    text-align:center;
+}
+
+.skill h2{
+    font-size:40px;
+    color:#000B58;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.skill h3{
+    color:#F96E2A
+}
+
+.web .webtxt{
+    margin-top:30px;
+    text-align:start;
+}
+
+.web .webtxt h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.web .webtxt p{
+    display:block;
+    width:450px;
+    font-size:20px;
+}
+
+.web{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+}
+
+.webimg{
+    height:150px;
+    width:200px;
+    padding-top:10px;
+}
+
+.ML{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:50px;
+}
+
+.ML .mlimg{
+    height:150px;
+    width:200px;
+    padding-top:10px
+}
+
+.ML .mltxt{
+    margin-top:10px;
+    text-align:start;
+}
+
+.ML .mltxt h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.ML .mltxt p{
+    display:block;
+    width:450px;
+    font-size:20px;
+}
+
+.DB{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:50px;
+}
+
+.DB .dbimg{
+    height:150px;
+    width:200px;
+    padding-top:10px
+}
+
+.DB .dbtxt{
+    margin-top:10px;
+    text-align:start;
+}
+
+.DB .dbtxt h3{
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.DB .dbtxt p{
+    display:block;
+    width:450px;
+    font-size:20px;
+}
+
+.project .h2{
+    font-size:40px;
+    color:#000B58;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#h31,#h32,#h33{
+    color:#F96E2A;
+
+}
+
+.h2{
+    text-align:center;
+}
+
+.contact{
+    text-align:center
+}
+
+.contact h2{
+    font-size:40px;
+    color:#000B58;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:50px;
+}
+
+.Conh3{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+
+.contact h3{
+    font-size:20px;
+    color:gray;
+    display:block;
+    width:400px
+}
+
+.footer{
+    height:200px;
+    width:100%;
+    background-color:#C9E6F0;
+    margin-top:50px;
+}
+
+.links{
+    display:flex;
+    gap:40px;
+    justify-content:center;
+    padding-top:40px
+}
+
+.attherate{
+    height:100px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:#000B58
+}
+
+@media(max-width:750px){
+    h2{
+        font-size:20px;
+    }
+
+   .titles h1{
+    padding-top:50px;
+    font-size:50px
+   }
+   .titles h2{
+    font-size:30px
+   }
+
+   .profile{
+    margin-top:30px;
+   }
+
+   .info p{
+    width:250px
+   }
+
+   .info{
+    height:500px;
+   }
+
+   .web{
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+   }
+
+   .web .webtxt{
+    margin-top:0px;
+    text-align:center;;
+    }
+
+    .web .webtxt p{
+        display:inline-block;
+        width:300px;
+        font-size:20px;
+    }
+
+    .ML{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .ML .mltxt{
+        margin-top:0px;
+    text-align:center;
+    }
+
+    .ML .mltxt p{
+        display:inline-block;
+        width:300px;
+        font-size:20px;
+    }
+
+    .DB{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .DB .dbtxt{
+        margin-top:0px;
+    text-align:center;
+    }
+
+    .DB .dbtxt p{
+        display:inline-block;
+        width:300px;
+        font-size:20px;
+    }
+
+    .contact h3{
+        display:inline-block;
+        width:300px
+    }
+
+    .star1{
+        position:sticky;
+        top:0px;
+        left:0px;
+
+    }
+
+    .star2{
+        position:sticky;
+        top:0px;
+        left:47px;
+        padding-left:45%;
+    }
+
+    .star3{
+        position:sticky;
+        top:0px;
+        left:90%;
+        padding-left:88%
+    }
+
+
+}
+
+
